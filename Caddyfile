@@ -1,3 +1,8 @@
+{
+    email me@binodswain.dev
+}
+
+
 jenkins.binodswain.dev {
     encode gzip
     reverse_proxy {

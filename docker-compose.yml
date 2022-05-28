@@ -10,7 +10,7 @@ services:
     volumes:
       - $PWD/Caddyfile:/etc/caddy/Caddyfile
       - $PWD/site:/srv
-      - caddy_data:/data
+      - $PWD/caddy_data:/data
       - caddy_config:/config
   jenkins:
     image: jenkins/jenkins:lts

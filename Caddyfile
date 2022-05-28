@@ -1,0 +1,7 @@
+jenkins.binodswain.dev {
+    encode gzip
+    reverse_proxy {
+        to http://localhost:8080
+    }
+}
+
